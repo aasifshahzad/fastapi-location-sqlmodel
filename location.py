@@ -40,7 +40,7 @@ class Location(SQLModel, table=True,):
     location: str
     
 
-database_url = "postgresql://aasifshahzad:kF5weXORDU7a@ep-white-sun-a1yogq94.ap-southeast-1.aws.neon.tech/location?sslmode=require"
+database_url = "postgresql://database_url"
 
 engine = create_engine(database_url)
 
